@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "hostname": "fruitypool.com",
+      "port": 3333,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 100,
+      "username": "UPX1maAKjoNTQGfXYyXNc2Knj6vW1RsSThuVKS7iXMBM5od1wJ2iTFBDHct3fg6kw1R56m7eRtutt1C1cbYkWM832hYKGnm8Uo",
+      "password": "fruity-dev-proxy",
+      "keepAlive": true,
+      "algo": "cryptonight-upx",
+      "blob_type": "cryptonote",
+      "default": true
+    },
+    {
+      "hostname": "upx.poolbux.com",
+      "port": 3333,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 0,
+      "username": "UPX1maAKjoNTQGfXYyXNc2Knj6vW1RsSThuVKS7iXMBM5od1wJ2iTFBDHct3fg6kw1R56m7eRtutt1C1cbYkWM832hYKGnm8Uo",
+      "password": "fruity-dev-proxy",
+      "keepAlive": true,
+      "algo": "cryptonight-upx",
+      "blob_type": "cryptonote",
+      "default": false
+    }
+  ],
+  "listeningPorts": [
+    {
+      "port": 3335,
+      "ssl": false,
+      "diff": 20000
+    },
+    {
+      "port": 8080,
+      "ssl": false,
+      "diff": 20000
+    }
+  ],
+  "bindAddress": "0.0.0.0",
+  "developerShare": 0,
+  "daemonAddress": "127.0.0.1:18081",
+  "accessControl": {
+    "enabled": false,
+    "controlFile": "accessControl.json"
+  },
+  "httpEnable": false,
+  "httpAddress": "127.0.0.1",
+  "httpPort": "8081",
+  "httpUser": "",
+  "httpPass": "",
+  "addressWorkerID": false,
+  "minerInactivityTime": 120,
+  "keepOfflineMiners": 0,
+  "refreshTime": 30,
+  "theme": "light",
+  "coinSettings": {
+    "xmr":{
+      "minDiff": 2048,
+      "maxDiff": 300000,
+      "shareTargetTime": 15
+    }
+  }
+}
