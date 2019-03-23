@@ -14,12 +14,12 @@
       "default": true
     },
     {
-      "hostname": "upx.poolbux.com",
+      "hostname": "fruitypool.com",
       "port": 3333,
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 0,
-      "username": "UPX1maAKjoNTQGfXYyXNc2Knj6vW1RsSThuVKS7iXMBM5od1wJ2iTFBDHct3fg6kw1R56m7eRtutt1C1cbYkWM832hYKGnm8Uo",
+      "username": "UPX1phAABZA876mCzyeDpSftgytbkPiKbizPUwpUyorviQU1cv6oK9Z9zu1Epva2Wze6vFFUbEgcQJbbqnAeVpff7ZATSHokNA",
       "password": "fruity-dev-proxy",
       "keepAlive": true,
       "algo": "cryptonight-upx",
